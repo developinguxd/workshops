@@ -1,3 +1,9 @@
+/* OVERRIDES */
+.container {
+  width: 1020px;
+}
+
+
 /* base styles*/
 .txt-grey {
   color: #aaa;
@@ -24,7 +30,7 @@
 }
 
 .meta-nav a {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -33,22 +39,34 @@
 .header-stage {
   background-image: url('../img/key-visual.jpg');
   background-size: cover;
-  color: white;
-  height: 500px;
+  color: #fff;
+  height: 420px;
   margin-bottom: 40px;
-  position: relative;
-  width: 100%;
 }
 
-.header-stage a:hover {
-  color: #333;
+.header-stage__topic {
+  background-image: url("../img/iak14-thema.png");
+  height: 210px;
+  margin-top: 100px;
+  overflow: hidden;
+  text-indent: -999em;
+  width: 843px;
 }
 
 
 /* main-nav */
 .main-nav {
-  bottom: 20px;
-  position: absolute;
+  margin-top: 40px;
+}
+
+.main-nav__link,
+.main-nav__link:hover {
+  color: #fff;
+  padding: 7px 15px;
+}
+
+.main-nav__link--active {
+  background-color: #690033;
 }
 
 
@@ -73,6 +91,7 @@
 .main-aside a {
   text-decoration: underline;
 }
+
 
 /* footer */
 .main-footer {
