@@ -53,14 +53,12 @@
   margin-top: 40px;
 }
 
-.main-nav__link,
-.main-nav__link:hover {
+.main-nav a {
   color: #fff;
-  padding: 7px 15px;
 }
 
-.main-nav__link--active {
-  background-color: #690033;
+.main-nav a:hover {
+  color: #428bca;
 }
 
 
