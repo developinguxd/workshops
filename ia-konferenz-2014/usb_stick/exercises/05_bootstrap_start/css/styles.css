@@ -1,64 +1,92 @@
+/* base styles*/
 .txt-grey {
   color: #aaa;
 }
 
-.site-header {
+
+/* main-header */
+.main-header {
   background-color: #ff9900;
 }
 
-.main-header a {
-  color: white;
-  text-decoration: none;
-}
-
-.logo-header {
+.main-header__top {
   height: 120px;
 }
 
-.logo {
+.main-header__logo {
   margin-top: 35px;
 }
 
+
+/* meta nav*/
 .meta-nav {
   margin-top: 90px;
 }
 
-.jumbotron {
+.meta-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* header-stage */
+.header-stage {
   background-image: url('../img/key-visual.jpg');
   background-size: cover;
-  color: white;
-  height: 500px;
-  width: 100%;
+  color: #fff;
+  height: 420px;
+  margin-bottom: 40px;
 }
 
-.jumbotron nav {
-  padding-top: 200px;
+.header-stage__topic {
+  background-image: url("../img/iak14-thema.png");
+  height: 210px;
+  margin-top: 100px;
+  overflow: hidden;
+  text-indent: -999em;
+  width: 843px;
 }
 
-.site-nav .nav-pills a:hover {
-  color: #333;
+
+/* main-nav */
+.main-nav {
+  margin-top: 40px;
 }
 
-.site-main article {
+.main-nav a {
+  color: #fff;
+}
+
+.main-nav a:hover {
+  color: #428bca;
+}
+
+
+/* main */
+.main__article {
   margin-bottom: 80px;
   margin-top: 40px;
 }
 
-.anchors a {
+.main__jump-marks a {
   margin-right: 20px;
   text-decoration: underline;
 }
 
-.sidebar h1 {
+
+/* main-aside */
+.main-aside__heading {
   color: #999;
   padding-top: 20px;
 }
 
-.sidebar a {
+.main-aside a {
   text-decoration: underline;
 }
 
-.site-footer {
+
+/* footer */
+.main-footer {
   color: black;
   height: 100px;
   margin-top: 80px;
