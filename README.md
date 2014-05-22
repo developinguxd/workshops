@@ -1,4 +1,6 @@
 Developing UXD - workshops
 ==========================
 
-This is the place for all our workshop content.
+All slides and working material of our workshops.
+
+Click on the button to the right to download.
