@@ -1,0 +1,20 @@
+.btn {
+  background-color: lightblue;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px 0 rgba(0,0,0,0.4);
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.btn:hover {
+  box-shadow: 4px 4px 2px 0 rgba(0,0,0,0.4);
+}
+
+.btn:active {
+  box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.4);
+  transition: box-shadow 0.05s ease-in-out;
+}

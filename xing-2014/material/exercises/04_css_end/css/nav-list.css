@@ -1,0 +1,17 @@
+.nav-list li {
+  width: 25%;
+}
+.nav-list a {
+  background-color: lightblue;
+  color: white;
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.nav-list a:hover,
+.nav-list li.active a {
+  background-color: white;
+  color: lightblue;
+}

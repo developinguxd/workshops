@@ -1,0 +1,13 @@
+.grid__left,
+.grid__right {
+  box-sizing: border-box;
+  float: left;
+}
+
+.grid__left {
+  width: 75%;
+}
+
+.grid__right {
+  width: 25%;
+}
