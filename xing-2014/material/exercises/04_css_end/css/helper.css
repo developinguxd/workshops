@@ -1,12 +1,6 @@
 /*
-  Text helpers
- */
-.normal {
-  font-size: 100%;
-  font-weight: normal;
-  margin: 0;
-}
-
+  Bootstrap-alike helpers
+*/
 .txt-center {
   text-align: center;
 }
@@ -24,6 +18,17 @@
   display: table;
   clear: both;
 }
+
+
+/*
+  Text helpers
+ */
+.normal {
+  font-size: 100%;
+  font-weight: normal;
+  margin: 0;
+}
+
 
 /*
   Horizontal margin helpers
@@ -63,7 +68,43 @@
 
 
 /*
-  Divider border helpers
+  Relative and absolute positioning
+ */
+.pos-rel {
+  position: relative;
+}
+
+/* They all need a parent with .pos-rel or the body
+   will be the parent for alignment */
+.abs-l, .abs-r, .abs-t, .abs-b, .abs-center {
+  position: absolute;
+}
+
+.abs-l {
+  left: 0;
+}
+.abs-r {
+  right: 0;
+}
+.abs-t {
+  top: 0;
+}
+.abs-b {
+  bottom: 0;
+}
+
+.abs-center {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 50%; /* Add another class to override height! */
+}
+
+
+/*
+  Divider
  */
 .divider-bottom {
   border-bottom: 1px solid #f0f0f0;
